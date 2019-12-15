@@ -1,0 +1,152 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 5843090400,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User is on TekSchool page",
+            "match": {
+              "location": "LoginStepDefinitions.user_is_on_TekSchool_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2266814700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User Click on Test Environment link",
+            "match": {
+              "location": "LoginStepDefinitions.user_Click_on_Test_Environment_link()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 10826800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User should see Test Environment page",
+            "match": {
+              "location": "LoginStepDefinitions.user_should_see_Test_Environment_page()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 12223810600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Initializer.beforeHooks()"
+            }
+          }
+        ],
+        "line": 19,
+        "name": "SDET_006_Execution",
+        "description": "",
+        "id": "sdet-test-cases;sdet-006-execution",
+        "after": [
+          {
+            "result": {
+              "duration": 925478600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Initializer.afterHooks()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 20,
+            "name": "User click on the Cameras",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 21,
+            "name": "User should be able to add product in the  Add to Cart",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 22,
+            "name": "User is able to remove product from the  Add to Cart",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 23,
+            "name": "User fill register form with below information",
+            "match": {
+              "location": "TekSchoolScenariosStepDefinitions.user_fill_register_form_with_below_information(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Cameras",
+                  "SelectQauntity",
+                  "2"
+                ],
+                "line": 24
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 25,
+            "name": "User click on Shopping Cart menu on top of the page, the list of items added should be displayed and there should be a Red X button for each item",
+            "match": {},
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 18,
+            "name": "@SDET_006"
+          }
+        ]
+      }
+    ],
+    "name": "SDET Test Cases",
+    "description": "",
+    "id": "sdet-test-cases",
+    "keyword": "Feature",
+    "uri": "Features/SDET_TC.feature"
+  }
+]
